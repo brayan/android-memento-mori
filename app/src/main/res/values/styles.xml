@@ -1,0 +1,130 @@
+<resources>
+
+    <style name="AppStyle" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextViewLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?colorLabel</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_xxsmall</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextViewLabel.EditText">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+
+    <style name="EditTextCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="cardCornerRadius">2dp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:textColor">@color/md_blue_grey_500</item>
+        <item name="android:textColorHint">@color/md_blue_grey_200</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="LabelAndValue">
+        <item name="android:paddingBottom">26dp</item>
+    </style>
+
+    <style name="TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:textColorHint">@color/md_blue_grey_300</item>
+    </style>
+
+    <style name="TextInputLayoutHintText">
+        <item name="android:textColor">?colorAccent</item>
+        <item name="android:textColorHint">?colorAccent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+        <item name="android:background">@color/md_yellow_500</item>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="ListItemTextViewPrimary">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">@color/primaryTextListItem</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="ListItemTextViewSecondary">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">@color/secondaryTextListItem</item>
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+    </style>
+
+    <style name="ListItemTextViewSide">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/md_teal_300</item>
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+    </style>
+
+    <style name="ListItemTextViewCurrency">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/md_blue_300</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="Countdown">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/grey_70</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="Countdown.Unit">
+        <item name="android:textColor">@color/grey_40</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="Countdown.Seconds">
+        <item name="android:textSize">84sp</item>
+    </style>
+
+    <style name="Countdown.Unit.Seconds">
+        <item name="android:textSize">48sp</item>
+    </style>
+
+
+</resources>

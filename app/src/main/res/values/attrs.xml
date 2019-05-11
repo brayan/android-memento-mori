@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorSplash" format="color" />
+    <attr name="colorBackground" format="color" />
+    <attr name="colorBackgroundEmptyView" format="color" />
+    <attr name="colorDivider" format="color" />
+    <attr name="colorIcon" format="color" />
+    <attr name="colorLabel" format="color" />
+    <attr name="colorValue" format="color" />
+</resources>

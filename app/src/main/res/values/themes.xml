@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/grey_70</item>
+        <item name="colorPrimaryDark">@color/grey_80</item>
+        <item name="colorAccent">@color/grey_70</item>
+        <item name="android:navigationBarColor">@color/grey_80</item>
+        <item name="colorSplash">@color/grey_40</item>
+        <item name="colorBackground">@color/grey_5</item>
+        <item name="colorBackgroundEmptyView">@color/grey_5</item>
+        <item name="colorDivider">@color/grey_10</item>
+        <item name="colorIcon">@color/md_white_1000</item>
+        <item name="colorLabel">?colorAccent</item>
+        <item name="colorValue">@color/grey_40</item>
+    </style>
+
+    <style name="AppTheme.SplashScreen">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="AppTheme.Drawer">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

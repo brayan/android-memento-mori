@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="product_quantity_cant_be_negative">Quantidade não pode ser negativa</string>
+
+    <string name="previous_days">Dias anteriores</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+    <string name="yesterday">Ontem</string>
+    <string name="pattern_month_day_short">dd \'de\' MMM</string>
+    <string name="pattern_month_day_long">dd \'de\' MMMM</string>
+    <string name="delete">Excluir</string>
+    <string name="save">Salvar</string>
+    <string name="next_days">Próximos dias</string>
+    <string name="cancel">Cancelar</string>
+    <string name="default_string">---</string>
+    <string name="not_repeat">Não repetir</string>
+    <string name="every_second">Todos os segundos</string>
+    <string name="every_minute">Todos os minutos</string>
+    <string name="every_hour">Todas as horas</string>
+    <string name="every_day">Todos os dias</string>
+    <string name="every_week">Todas as semanas</string>
+    <string name="every_month">Todos os meses</string>
+    <string name="every_year">Todos os anos</string>
+    <string name="custom">Personalizado</string>
+    <string name="no_records_found">Nenhum registro encontrado</string>
+    <string name="notes">Anotações</string>
+    <string name="history">Histórico</string>
+    <string name="about">Sobre</string>
+    <string name="info">Informações</string>
+    <string name="developed_by">Desenvolvido por</string>
+    <string name="version">Versão</string>
+    <string name="items">itens</string>
+    <string name="item">item</string>
+    <string name="no_items_selected">0 itens</string>
+    <string name="search">Pesquisar</string>
+    <string name="initial_date">Data Inicial</string>
+    <string name="final_date">Data Final</string>
+    <string name="filter_by_date">Filtrar por data</string>
+    <string name="filter">Filtrar</string>
+    <string name="settings">Configurações</string>
+    <string name="tip">Dica</string>
+    <string name="got_it">ENTENDI</string>
+    <string name="ept_click_to_add">Clique no botão + para adicionar</string>
+    <string name="are_you_sure">Tem certeza?</string>
+    <string name="sunday">Domingo</string>
+    <string name="monday">Segunda</string>
+    <string name="tuesday">Terça</string>
+    <string name="wednesday">Quarta</string>
+    <string name="thursday">Quinta</string>
+    <string name="friday">Sexta</string>
+    <string name="saturday">Sábado</string>
+    <string name="no_filter">Nenhum filtro</string>
+    <string name="last_7_days">Últimos 7 dias</string>
+    <string name="last_30_days">Últimos 30 dias</string>
+    <string name="date_range">Intervalo entre datas</string>
+    <string name="and">e</string>
+    <string name="none">Nenhum</string>
+    <string name="menu_save">SALVAR</string>
+    <string name="year">ano</string>
+    <string name="years">anos</string>
+    <string name="month">mês</string>
+    <string name="months">meses</string>
+    <string name="week">semana</string>
+    <string name="weeks">semanas</string>
+    <string name="day">dia</string>
+    <string name="days">dias</string>
+    <string name="hour">hora</string>
+    <string name="hours">horas</string>
+    <string name="minute">minuto</string>
+    <string name="minutes">minutos</string>
+    <string name="second">segundo</string>
+    <string name="seconds">segundos</string>
+    <string name="label_date">Data</string>
+    <string name="label_time">Hora</string>
+    <string name="label_repeat">Repetir</string>
+    <string name="label_starting_date">Data de Início</string>
+    <string name="label_countdown">Contagem Regressiva</string>
+    <string name="msg_data_cant_be_greater">A data não pode ser maior que hoje</string>
+    <string name="msg_end_date">A data final não pode ser menor que a data inicial</string>
+    <string name="label_status">Status</string>
+    <string name="label_date_time">Data/Hora</string>
+    <string name="restore">Restaurar</string>
+
+    <string name="msg_exception_start_editing">Não foi possível iniciar a edição. Por favor, tente novamente</string>
+
+    <string name="msg_exception_saving">Não foi possível salvar. Por favor, tente novamente</string>
+    <string name="exception_product_name">É necessário inserir o nome do produto</string>
+    <string name="exception_product_quantity">É necessário inserir a quantidade do produto</string>
+
+
+    <!-- Label -->
+    <string name="label_entity_name">Nome</string>
+    <string name="label_entity_description">Descrição</string>
+    <string name="label_entity_quantity">Quantidade</string>
+    <string name="label_entity_price">Preço</string>
+    <string name="label_notifications">Notificações</string>
+    <string name="label_developed_by">Desenvolvido por</string>
+    <string name="label_version">Versão</string>
+
+
+    <!-- Value -->
+    <string name="value_developed_by">Brayan Bedritchuk</string>
+
+
+    <!-- Hints -->
+    <string name="hint_entity_name">Insira o nome</string>
+    <string name="hint_entity_description">Insira a descrição</string>
+    <string name="hint_entity_quantity">Insira a quantidade</string>
+    <string name="hint_entity_price">Insira o preço</string>
+
+
+    <!-- Menus -->
+    <string name="menu_new_product">Novo produto</string>
+    <string name="menu_settings">Configurações</string>
+
+
+    <!-- Títulos -->
+    <string name="title_entities">Entidades</string>
+    <string name="title_new_entity">Nova Entidade</string>
+    <string name="title_edit_entity">Editar Entidade</string>
+    <string name="title_entity_details">Detalhes da Entidade</string>
+    <string name="title_settings">Configurações</string>
+    <string name="title_about">Sobre</string>
+
+
+    <!-- Empty Views -->
+    <string name="empty_view_msg_no_entities_found">Nenhum produto encontrado</string>
+
+
+    <!-- Mensagens de Feedback -->
+    <string name="fdb_msg_entity_edited_successfully">Entidade editada com sucesso!</string>
+    <string name="fdb_msg_entity_inserted_successfully">Entidade inserida com sucesso!</string>
+    <string name="fdb_msg_entity_deleted_successfully">Entidade excluída com sucesso!</string>
+
+
+    <!-- Dialog -->
+    <string name="dlg_title_warning">Aviso</string>
+    <string name="dlg_msg_cancel">Deseja realmente cancelar?</string>
+    <string name="dlg_msg_delete_entity">Deseja realmente excluir a entidade?</string>
+    <string name="dlg_msg_delete">Deseja realmente excluir?</string>
+    <string name="default_msg_error">Ocorreu um erro ao efetuar a operação</string>
+    <string name="dlg_msg_error_delete_entity">Ocorreu um erro ao excluir a entidade. Por favor, tente novamente.</string>
+    <string name="dlg_msg_error_list">Ocorreu um erro ao carregar a lista</string>
+    <string name="dlg_msg_error_details">Ocorreu um erro ao carregar os detalhes</string>
+    <string name="dlg_msg_error_loading_products">Ocorreu um erro ao carregar os produtos</string>
+    <string name="dlg_msg_error_product_details">Ocorreu um erro ao carregar os detalhes do produto</string>
+    <string name="dlg_msg_error_product_name_not_filled">É necessário preencher o nome do produto</string>
+    <string name="dlg_msg_error_checkout">Ocorreu um erro ao finalizar a compra</string>
+    <string name="dlg_msg_error_price_invalid">É necessário preencher corretamente o preço</string>
+    <string name="msg_delete">Deseja realmente excluir?</string>
+    <string name="dlg_option_pos_yes">Sim</string>
+    <string name="dlg_option_neg_no">Não</string>
+    <string name="error_on_save_year">Ocorreu um erro ao inserir o ano. Tente novamente.</string>
+
+
+    <!-- Navigation Menu -->
+    <string name="nav_home">Principal</string>
+    <string name="nav_search">Pesquisar</string>
+    <string name="menu_nav_item3">Item 3</string>
+    <string name="menu_nav_item4">Item 4</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_drawer_open">Abrir menu de navegação</string>
+    <string name="nav_drawer_close">Fechar menu de navegação</string>
+
+
+    <!-- Settings -->
+    <string name="settings_notification_tone">Som de notificação</string>
+    <string name="settings_notification_tone_none">Nenhum</string>
+    <string name="settings_vibrate">Vibrar</string>
+    <string name="settings_about">Sobre</string>
+
+
+    <!-- Notification Channel -->
+    <string name="notification_channel_alarm">Alarme</string>
+    <string name="notification_title_deadline">Memento Mori</string>
+
+
+</resources>
