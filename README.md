@@ -1,4 +1,4 @@
-# android-memento-mori
+# Memento Mori 💀
 
 “Memento Mori - Remember death! These are important words. If we kept in mind that we will soon inevitably die, our lives would be completely different. If a person knows that he will die in a half hour, he certainly will not bother doing trivial, stupid, or, especially, bad things during this half hour. Perhaps you have half a century before you die. What makes this any different from a half hour?” Leo Tolstoy
 
