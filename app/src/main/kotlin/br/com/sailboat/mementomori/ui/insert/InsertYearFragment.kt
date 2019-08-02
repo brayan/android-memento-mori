@@ -35,6 +35,10 @@ class InsertYearFragment : BaseMvpFragment<InsertYearContract.Presenter>(), Inse
         numberPicker.value = year
     }
 
+    override fun setYears(years: Array<String>) {
+        numberPicker.displayedValues = years
+    }
+
     override fun navigateToCountdown() {
         activity?.run { CountdownActivity.startFrom(this) }
     }

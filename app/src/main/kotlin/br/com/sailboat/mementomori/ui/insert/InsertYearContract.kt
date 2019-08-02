@@ -8,6 +8,7 @@ interface InsertYearContract {
         fun setMinYear(year: Int)
         fun setMaxYear(year: Int)
         fun setCurrentYear(year: Int)
+        fun setYears(years: Array<String>)
         fun navigateToCountdown()
         fun navigateToSettings()
         fun showErrorOnSaveYear()

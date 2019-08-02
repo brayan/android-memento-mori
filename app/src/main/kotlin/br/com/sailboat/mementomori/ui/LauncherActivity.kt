@@ -7,9 +7,9 @@ import br.com.sailboat.mementomori.domain.usecase.ContainsDateOfDeath
 import br.com.sailboat.mementomori.settings.SetUpInitialSettings
 import br.com.sailboat.mementomori.ui.countdown.CountdownActivity
 import br.com.sailboat.mementomori.ui.insert.InsertYearActivity
-import kotlinx.coroutines.experimental.android.UI
-import kotlinx.coroutines.experimental.async
-import kotlinx.coroutines.experimental.launch
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 class LauncherActivity : AppCompatActivity() {
@@ -24,10 +24,10 @@ class LauncherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         (application as App).appComponent.inject(this)
 
-        launch(UI) {
-            async { setUpInitialSettings() }.await()
+        GlobalScope.launch(Dispatchers.Main) {
+            setUpInitialSettings()
 
-            if (async { containsDateOfDeath() }.await()) {
+            if (containsDateOfDeath()) {
                 CountdownActivity.startFrom(this@LauncherActivity)
             } else {
                 InsertYearActivity.startFrom(this@LauncherActivity)

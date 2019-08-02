@@ -62,7 +62,7 @@ dependencies {
     implementation "android.arch.persistence.room:runtime:$room_version"
     implementation "android.arch.paging:runtime:$paging_version"
     implementation "com.google.dagger:dagger:$dagger_version"
-    implementation "com.google.firebase:firebase-core:$firebaseCore_version"
+    //implementation "com.google.firebase:firebase-core:$firebaseCore_version"
     testImplementation "junit:junit:$junit_version"
     testImplementation "org.mockito:mockito-core:$mockito_version"
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
@@ -74,4 +74,4 @@ dependencies {
     androidTestImplementation "com.android.support.test.espresso:espresso-intents:$espresso_version"
 }
 
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'

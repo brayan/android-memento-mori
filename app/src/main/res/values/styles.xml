@@ -115,7 +115,7 @@
 
     <style name="Countdown.Unit">
         <item name="android:textColor">@color/grey_40</item>
-        <item name="android:textSize">36sp</item>
+        <item name="android:textSize">28sp</item>
     </style>
 
     <style name="Countdown.Seconds">

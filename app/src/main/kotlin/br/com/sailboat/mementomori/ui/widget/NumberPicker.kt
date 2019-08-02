@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Typeface
 import android.support.v4.content.ContextCompat
 import android.util.AttributeSet
+import android.util.Log
 import android.util.TypedValue
 import android.view.View
 import android.view.ViewGroup
@@ -16,16 +17,19 @@ class NumberPicker(context: Context?, attrs: AttributeSet?) : NumberPicker(conte
     override fun addView(child: View?) {
         super.addView(child)
         updateView(child)
+        Log.e("BRAYAN", "NumberPicker.addView 1")
     }
 
     override fun addView(child: View?, index: Int, params: ViewGroup.LayoutParams?) {
         super.addView(child, index, params)
         updateView(child)
+        Log.e("BRAYAN", "NumberPicker.addView 2")
     }
 
     override fun addView(child: View?, params: ViewGroup.LayoutParams?) {
         super.addView(child, params)
         updateView(child)
+        Log.e("BRAYAN", "NumberPicker.addView 3")
     }
 
     private fun updateView(child: View?) {

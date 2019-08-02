@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="?colorBackground"
-    android:orientation="vertical">
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 android:background="?colorBackground"
+                                                 android:orientation="vertical">
 
-    <include layout="@layout/appbar" />
+    <include layout="@layout/appbar"/>
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -32,27 +32,29 @@
                 app:layout_behavior="@string/appbar_scrolling_view_behavior"
                 app:spanCount="3"
                 tools:itemCount="6"
-                tools:listitem="@layout/vh_countdown"
-                tools:showIn="@layout/frg_list" />
+                tools:listitem="@layout/vh_countdown"/>
 
             <LinearLayout
+                android:id="@+id/llSeconds"
+                android:visibility="gone"
+                tools:visibility="visible"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="100dp"
                 android:gravity="center|bottom">
 
                 <TextView
-                    android:id="@+id/txtSeconds"
+                    android:id="@+id/tvSeconds"
                     style="@style/Countdown.Seconds"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    tools:text="14" />
+                    tools:text="14"/>
 
                 <TextView
                     style="@style/Countdown.Unit.Seconds"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/countdown_metric_second" />
+                    android:text="@string/countdown_metric_second"/>
 
             </LinearLayout>
 

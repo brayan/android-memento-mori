@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.view.View
 import br.com.sailboat.mementomori.App
 import br.com.sailboat.mementomori.R
 import br.com.sailboat.mementomori.ui.base.mvp.BaseMvpFragment
@@ -42,7 +43,8 @@ class CountdownFragment : BaseMvpFragment<CountdownContract.Presenter>(), Countd
     }
 
     override fun setSeconds(seconds: String) {
-        txtSeconds.text = seconds
+        llSeconds.visibility = View.VISIBLE
+        tvSeconds.text = seconds
     }
 
     override fun updateDetails() {

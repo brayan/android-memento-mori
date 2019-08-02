@@ -1,7 +1,6 @@
 package br.com.sailboat.mementomori.ui.base.mvp
 
-import kotlinx.coroutines.experimental.*
-import kotlinx.coroutines.experimental.android.Main
+import kotlinx.coroutines.*
 
 abstract class BasePresenter<V : BaseMvpContract.View> : BaseMvpContract.Presenter {
 

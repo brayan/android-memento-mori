@@ -1,8 +1,9 @@
 package br.com.sailboat.mementomori.ui.about
 
 import br.com.sailboat.mementomori.ui.base.mvp.BasePresenter
-import kotlinx.coroutines.experimental.CommonPool
-import kotlinx.coroutines.experimental.async
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 class AboutPresenter @Inject constructor(
@@ -21,10 +22,10 @@ class AboutPresenter @Inject constructor(
     override fun getDetails() = viewModel.details
 
     private fun loadDetails() {
-        launchAsync {
+        GlobalScope.launch(Dispatchers.Main) {
             try {
                 view?.showProgress()
-                val details = async(CommonPool) { getAbout() }.await()
+                val details = getAbout()
 
                 viewModel.details.clear()
                 viewModel.details.addAll(details)

@@ -6,8 +6,6 @@ import br.com.sailboat.mementomori.domain.usecase.AddYearOfDeath
 import br.com.sailboat.mementomori.domain.usecase.GetMaxDateOfDeath
 import br.com.sailboat.mementomori.domain.usecase.GetMinDateOfDeath
 import br.com.sailboat.mementomori.ui.base.mvp.BasePresenter
-import kotlinx.coroutines.experimental.GlobalScope
-import kotlinx.coroutines.experimental.async
 import java.util.*
 import javax.inject.Inject
 
@@ -22,7 +20,7 @@ class InsertYearPresenter @Inject constructor(
 
     override fun setUp() {
         launchAsync {
-            GlobalScope.async { loadYearInfo() }.await()
+            loadYearInfo()
             updateContentViews()
         }
     }
@@ -43,8 +41,8 @@ class InsertYearPresenter @Inject constructor(
         launchAsync {
             try {
                 logger.d("InsertYearPresenter.onClickSkull()")
-                GlobalScope.async { addYearOfDeath(viewModel.currentYear) }.await()
-                GlobalScope.async { setDeadlineAlarm() }.await()
+                addYearOfDeath(viewModel.currentYear)
+                setDeadlineAlarm()
                 view?.navigateToCountdown()
                 view?.closeWithSuccess()
             } catch (e: Exception) {
@@ -63,9 +61,19 @@ class InsertYearPresenter @Inject constructor(
 
     private fun updateContentViews() {
         logger.d("InsertYearPresenter.updateContentViews()")
+
+        view?.setCurrentYear(viewModel.currentYear)
+
+       /* var years = mutableListOf<String>()
+        for (i in viewModel.minYear..viewModel.maxYear) {
+            years.add(i.toString())
+        }
+
+        view?.setYears(years.toTypedArray())*/
+
         view?.setMinYear(viewModel.minYear)
         view?.setMaxYear(viewModel.maxYear)
-        view?.setCurrentYear(viewModel.currentYear)
+
     }
 
 }
